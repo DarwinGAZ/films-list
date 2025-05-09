@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.models .films-item {
+    display: none;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+.sidebar-area {
+    width: 40px;
+    background-color: rgb(160, 155, 155);
+    height: 100vh;
+    position: fixed;
+    transition: all 0.3s ease;
+}
+
+.sidebar-area:hover {
+    width: 250px;
+}
+
+.sidebar {
+    padding: 20px;
+}
+
+.main-content {
+    margin-left: 40px;
+    flex-grow: 1;
+    transition: margin-left 0.3s ease;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.sidebar-area:hover ~ .main-content {
+    margin-left: 250px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ddd;
+    border-top: 1px solid #aaa;
+    margin-top: auto;
+    width: 100%;
+}
+
+.film-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 30px;
+    gap: 20px;
+    width: fit-content;
+    margin: 50px auto;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ddd;
+    border-top: 1px solid #aaa;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+footer a img {
+    width: 30px;
+    height: auto;
+}
+
+.films-item {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.film-item--img img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.film-item--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.film-item--title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.film-item--desc {
+    font-size: 14px;
+    color: #555;
+}
+
+.film-item--img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.film-item--duration {
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color: inherit;
+}
