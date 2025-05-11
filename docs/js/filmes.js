@@ -32,7 +32,7 @@ const filmesJson = [
         video: "https://www.youtube.com/watch?v=J57HnR6FPW0",
     },
     {
-        titulo: "Inception",
+        titulo: "A Origem",
         imagem: "https://upload.wikimedia.org/wikipedia/pt/thumb/8/84/AOrigemPoster.jpg/250px-AOrigemPoster.jpg",
         sinopse:
             "Dom Cobb, um ladrão especializado em roubar segredos valiosos, deve realizar um último trabalho: implantar uma ideia na mente de uma pessoa.",

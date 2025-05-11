@@ -5,45 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <title>Filmes</title>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="sidebar-area">
-        <aside class="sidebar">
-            <label class="switch">
-                <input type="checkbox" id="theme-toggle">
-                <span class="slider"></span>
-            </label>
-        </aside>
-    </div>
 
-    <div class="main-content">
-        <header>
-            <h1>Filmes</h1>
-        </header>
+    <div id="page-container">
 
-        <div class="models">
-            <div class="films-item">
-                <div class="film-item--img">
-                    <a href="">
-                        <img src="">
-                        <div class="film-item--duration">--</div>
-                    </a>
+        <div id="content-wrap">
+            <div class="main-content">
+                <header>
+                    <h1>Filmes</h1>
+                </header>
+
+                <div class="search-container">
+                    <input type="search" id="search" class="inputSearch" placeholder="Digite o nome do filme"
+                        autocomplete="off">
                 </div>
-                <div class="film-item--info">
-                    <div class="film-item--title">--</div>
-                    <div class="film-item--desc">--</div>
+
+                <div class="models">
+                    <div class="films-item">
+                        <div class="film-item--img">
+                            <a href="">
+                                <img src="">
+                                <div class="film-item--duration">--</div>
+                                <div class="film-item--info">
+                                    <div class="film-item--title">--</div>
+                                    <div class="film-item--desc">--</div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <main>
+                <div class="film-area">
+                    <div class="no-results">
+                        Nenhum filme encontrado.
+                    </div>
+                </div>
+            </main>
+
         </div>
-
-        <main>
-            <div class="film-area"></div>
-        </main>
-
         <footer>
             <div class="footer-text">Criado por DarwinGAZ</div>
             <div class="footer-icons">
@@ -58,10 +63,9 @@
             </div>
         </footer>
     </div>
-
+    </div>
     <script src="js/filmes.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/mode.js"></script> <!-- Arquivo JS para modo escuro/claro -->
 </body>
 
 </html>

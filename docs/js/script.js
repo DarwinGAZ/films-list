@@ -30,3 +30,25 @@ function toggleSidebar() {
         mainContent.style.marginLeft = "250px";
     }
 }
+
+document.querySelector(".inputSearch").addEventListener("input", (e) => {
+    let value = e.target.value.toLowerCase().trim();
+    let hasResult = false;
+
+    document.querySelectorAll(".films-item").forEach((item) => {
+        const title = item
+            .querySelector(".film-item--title")
+            .textContent.toLowerCase();
+
+        if (title.includes(value)) {
+            item.style.display = "flex";
+            hasResult = true;
+        } else {
+            item.style.display = "none";
+        }
+    });
+
+    document.querySelector(".no-results").style.display = hasResult
+        ? "none"
+        : "block";
+});
