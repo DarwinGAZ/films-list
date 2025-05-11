@@ -4,7 +4,7 @@ Este é um projeto simples de listagem e busca de filmes feito com **HTML**, **C
 
 ## 📸 Prévia
 
-
+https://darwingaz.github.io/films-list/
 
 ## ⚙ Funcionalidades
 
