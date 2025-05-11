@@ -2,9 +2,9 @@
 
 Este é um projeto simples de listagem e busca de filmes feito com **HTML**, **CSS** e **JavaScript**. Ele exibe uma lista de filmes com imagem, título, duração e sinopse, e permite pesquisar por nome. Ao clicar em um filme, o trailer ou vídeo é aberto em uma nova aba.
 
-## 📸 Prévia
+## 🚀 Acesse o projeto online
 
-https://darwingaz.github.io/films-list/
+🔗 [Clique aqui para testar](https://darwingaz.github.io/films-list/)
 
 ## ⚙ Funcionalidades
 
